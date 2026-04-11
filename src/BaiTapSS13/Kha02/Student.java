@@ -21,4 +21,8 @@ public class Student {
     public String toString() {
         return id + ". ID : " + id + " , Tên sinh viên: " + name;
     }
+
+    public String getName() {
+        return name;
+    }
 }
